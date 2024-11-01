@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LCD_Screen")(type "KiCad")(uri "${KIPRJMOD}/LCD_Screen.kicad_sym")(options "")(descr ""))
+)
