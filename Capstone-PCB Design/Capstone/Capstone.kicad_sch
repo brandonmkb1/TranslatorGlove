@@ -270,141 +270,6 @@
 				)
 			)
 		)
-		(symbol "LCD_Screen:I2C_LCD1602"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LCD1"
-				(at 14.478 9.906 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "I2C_LCD1602_0_1"
-				(rectangle
-					(start 7.62 8.89)
-					(end 16.51 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "I2C_LCD1602_1_1"
-				(pin input line
-					(at 10.16 -3.81 90)
-					(length 3.81)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 2.54 180)
-					(length 3.81)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 5.08 180)
-					(length 3.81)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 12.7 270)
-					(length 3.81)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "MCU_Module:Arduino_UNO_R3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1073,12 +938,6 @@
 		(uuid "0a26db37-7be6-4ceb-9d68-2ac485bcad33")
 	)
 	(junction
-		(at 95.25 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f773c39-5924-402c-bae1-4a4de9cbbee7")
-	)
-	(junction
 		(at 181.61 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1145,12 +1004,6 @@
 		(uuid "da8fbb3c-b9eb-4a4a-ae89-45253f9acee0")
 	)
 	(junction
-		(at 87.63 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb6167a2-2fdf-41fc-a4c2-a019d51d054d")
-	)
-	(junction
 		(at 196.85 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1195,16 +1048,6 @@
 			(type default)
 		)
 		(uuid "0a12a62d-d5dd-4ccd-8a04-9d322511c837")
-	)
-	(wire
-		(pts
-			(xy 63.5 106.68) (xy 63.5 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10837aff-7d9c-4647-860c-7e985065d35e")
 	)
 	(wire
 		(pts
@@ -1408,16 +1251,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 116.84) (xy 80.01 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fca1bd0-7b82-4dc5-a660-9ef9816c4fe2")
-	)
-	(wire
-		(pts
 			(xy 105.41 93.98) (xy 132.08 93.98)
 		)
 		(stroke
@@ -1425,16 +1258,6 @@
 			(type default)
 		)
 		(uuid "a060e587-7703-4631-89f9-f17273bd039b")
-	)
-	(wire
-		(pts
-			(xy 63.5 123.19) (xy 63.5 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1a578e3-7719-4cea-b97c-15e58eaf8cd8")
 	)
 	(wire
 		(pts
@@ -1468,26 +1291,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 72.39) (xy 87.63 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c24ef0aa-53e4-42d7-b03d-f686ce08fc4a")
-	)
-	(wire
-		(pts
-			(xy 73.66 114.3) (xy 80.01 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c295e3f6-2f38-4dbd-8d18-4130afabcbcf")
-	)
-	(wire
-		(pts
 			(xy 196.85 104.14) (xy 196.85 107.95)
 		)
 		(stroke
@@ -1515,16 +1318,6 @@
 			(type default)
 		)
 		(uuid "ce7da6ea-134a-44d1-b0e4-a6d73cacd9b9")
-	)
-	(wire
-		(pts
-			(xy 63.5 135.89) (xy 95.25 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddbc5cad-f52d-43b0-860e-f2249273232f")
 	)
 	(wire
 		(pts
@@ -1614,7 +1407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P25.40mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 148.082 82.55 90)
 			(effects
 				(font
@@ -1684,7 +1477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 179.832 111.76 90)
 			(effects
 				(font
@@ -1727,81 +1520,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LCD_Screen:I2C_LCD1602")
-		(at 53.34 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "35aa37a0-6786-4ee0-904d-fef6af4697e2")
-		(property "Reference" "LCD1"
-			(at 70.104 109.474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 59.69 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "SDA"
-			(uuid "7a5780e0-7d26-4d19-bd4f-c91ee88ab202")
-		)
-		(pin "GND"
-			(uuid "3cfa8f25-143f-403b-92f3-fd41e7357517")
-		)
-		(pin "SCL"
-			(uuid "8e9e47c7-4591-481f-b0c7-d5dc7ca92d8b")
-		)
-		(pin "VDD"
-			(uuid "f20939ed-b674-4813-b845-3214919a593a")
-		)
-		(instances
-			(project ""
-				(path "/f2326fe7-1598-475e-b9c8-d4dfb0601564"
-					(reference "LCD1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 132.08 82.55 0)
 		(unit 1)
@@ -1829,7 +1547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P25.40mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 130.302 82.55 90)
 			(effects
 				(font
@@ -1899,7 +1617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 195.072 111.76 90)
 			(effects
 				(font
@@ -1969,7 +1687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P25.40mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 163.322 82.55 90)
 			(effects
 				(font
@@ -2039,7 +1757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:Arduino_UNO_R3"
+		(property "Footprint" "Module:Arduino_UNO_R3_WithMountingHoles"
 			(at 92.71 104.14 0)
 			(effects
 				(font
@@ -2200,7 +1918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P25.40mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 179.832 82.55 90)
 			(effects
 				(font
@@ -2270,7 +1988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 148.082 111.76 90)
 			(effects
 				(font
@@ -2340,7 +2058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 163.322 111.76 90)
 			(effects
 				(font
@@ -2410,7 +2128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 130.302 111.76 90)
 			(effects
 				(font
@@ -2480,7 +2198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P25.40mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 195.072 82.55 90)
 			(effects
 				(font
